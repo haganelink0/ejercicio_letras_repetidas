@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Letras repetidas Fase 2</title>
+</head>
+<body>
+<p id="display"></p>
+<script>
+	let name = ['a','n','t','o','n'];
+	for(let i = 0; i < name.length;i++) {
+		if(name[i] =='a' || name[i] =='e'  || name[i] =='i'  || name[i] =='o'  || name[i] =='u' ) {
+			document.getElementById("display").innerHTML += "Vocal <br>";
+		} else {
+			document.getElementById("display").innerHTML += "Consonante <br>";
+		}
+	}
+ </script>
+</body>
+</html>
